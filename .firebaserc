@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "hot-corn-5a8ba"
-  }
+  },
+  "targets": {
+    "hot-corn-5a8ba": {
+      "hosting": {
+        "corn-proxy": [
+          "corn-proxy"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

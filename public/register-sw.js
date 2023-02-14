@@ -23,7 +23,5 @@ async function registerSW() {
         reg.pushManager.subscribe({userVisibleOnly: true}).then(function(sub) {
             reg.active.postMessage(JSON.stringify(__uv$config));
         });
-    }).catch(function(error) {
-        console.log('Error : ', error);
     });
 }
